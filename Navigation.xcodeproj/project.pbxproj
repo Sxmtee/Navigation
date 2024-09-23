@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		044810842C9F18F200C57691 /* CustomNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044810832C9F18F200C57691 /* CustomNavBar.swift */; };
 		044DA4272C34503C007B0FB0 /* NavigationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044DA4262C34503C007B0FB0 /* NavigationApp.swift */; };
 		044DA4292C34503C007B0FB0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044DA4282C34503C007B0FB0 /* ContentView.swift */; };
 		044DA42B2C345043007B0FB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 044DA42A2C345043007B0FB0 /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		044810832C9F18F200C57691 /* CustomNavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavBar.swift; sourceTree = "<group>"; };
 		044DA4232C34503C007B0FB0 /* Navigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Navigation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		044DA4262C34503C007B0FB0 /* NavigationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationApp.swift; sourceTree = "<group>"; };
 		044DA4282C34503C007B0FB0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -60,10 +62,11 @@
 				044DA4262C34503C007B0FB0 /* NavigationApp.swift */,
 				044DA4282C34503C007B0FB0 /* ContentView.swift */,
 				045EC10A2C94AD91001A43BE /* ProNavPath.swift */,
+				045EC10C2C94B24F001A43BE /* DataNavPath.swift */,
 				045EC10E2C94C78D001A43BE /* RootNavPath.swift */,
+				044810832C9F18F200C57691 /* CustomNavBar.swift */,
 				044DA42A2C345043007B0FB0 /* Assets.xcassets */,
 				044DA42C2C345043007B0FB0 /* Preview Content */,
-				045EC10C2C94B24F001A43BE /* DataNavPath.swift */,
 			);
 			path = Navigation;
 			sourceTree = "<group>";
@@ -146,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				044810842C9F18F200C57691 /* CustomNavBar.swift in Sources */,
 				045EC10D2C94B24F001A43BE /* DataNavPath.swift in Sources */,
 				045EC10F2C94C78D001A43BE /* RootNavPath.swift in Sources */,
 				044DA4292C34503C007B0FB0 /* ContentView.swift in Sources */,
